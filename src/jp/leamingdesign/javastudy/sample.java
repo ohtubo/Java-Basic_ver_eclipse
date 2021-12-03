@@ -14,7 +14,7 @@ public class sample {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-//		System.out.println("Hello Eclipse!");
+		System.out.println("Hello Eclipse!\nIt's Tuesday Today");
 		System.out.println("こんにちは、イクリプス!");
 		System.out.println();
 	}
