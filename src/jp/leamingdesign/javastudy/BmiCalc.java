@@ -1,4 +1,4 @@
-package jp.leamingdesign;
+package jp.leamingdesign.javastudy;
 
 public class BmiCalc {
 	/*BMI(体格指数を計算するプログラム)
@@ -16,6 +16,14 @@ public class BmiCalc {
 		bmi = weigth / (heigth * heigth);
 		
 		System.out.println(bmi);
+		
+		if (bmi < 18.5) {
+			System.out.println("やせ型です");
+		}else if(bmi < 25) {
+			System.out.println("標準です");
+		}else {
+			System.out.println("肥満です");
+		}
 		
 
 	}
